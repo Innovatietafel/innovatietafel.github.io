@@ -73,16 +73,20 @@
         <a-entity id="second-camera" camera="active:true; fov:80;" position="0 0 0" rotation="0 0 0" look-controls="pointerLockEnabled:false"></a-entity>
       </a-entity>
         <!-- objects -->
-        <a-entity gltf-model="#testBox" scale="0.010 0.010 0.010" position="0 0.45 -0.45" rotation="0 0 0" animation-mixer="loop:repeat;"></a-entity>
-        <a-plane src="#texture_info" height="0.3" width="0.6" rotation="-90 0 0" position="0 0.8 -0.08" material="transparent: true; side: double;"></a-plane>
+        <a-entity gltf-model="#testBox" scale="0.010 0.010 0.010" position="0 -0.5 -0.3" rotation="0 0 0" animation-mixer="loop:repeat;"></a-entity>
+        <a-plane src="#texture_info" height="0.313" width="0.886" rotation="-90 0 0" position="0 -0.8 0.3" material="transparent: true; side: double;"></a-plane>
         <a-plane src="#texture_wall_rear" height="3" width="4" rotation="270 180 0" position="0 -2.5 0" material="transparent: false; side: double;"></a-plane>
         <a-plane src="#texture_floor" height="6" width="4" rotation="0 180 0" position="0 0.5 1.5" material="transparent: false; side: single;"></a-plane>
         <a-plane src="#texture_ceiling" height="6" width="4" rotation="0 0 0" position="0 0.5 -1.5" material="transparent: false; side: single;"></a-plane>
         <a-plane src="#texture_wall_left" height="3" width="6" rotation="0 90 -90" position="-2 0.5 0" material="transparent: false; side: single;"></a-plane>
         <a-plane src="#texture_wall_right" height="3" width="6" rotation="0 -90 90" position="2 0.5 0" material="transparent: false; side: single;"></a-plane>
+        <a-plane src="#texture_wall_right_front" height="1.5" width="1.5" rotation="0 -90 90 " position = "0.75 0.25 0" material="transparant:false;side:single;"></a-plane>
         <a-plane src="#texture_bar" height="0.6" width="1.4" rotation="270 0 0" position="-0.2 -1.6 0.3" material="transparent: true; side: double;"></a-plane>
         <a-plane src="#texture_tafel" height="0.6" width="1" rotation="90 0 0 " position="0.375 -1 0.3" material="transparent: true; side: double;"></a-plane>
         <a-plane src="#texture_tafel" height="0.6" width="1" rotation="270 0 0 " position="0.375 -1 0.3" material="transparent: true; side: double;"></a-plane>
+        <a-plane height="1.5" width="0.25" position="0.875 1 0" rotation="90 0 0" material="color:black;side:double;"></a-plane>
+        <a-plane height="1.5" width="0.25" position="0.875 0.25 -0.75" material="color:black;side:double;"></a-plane>
+      
       </a-entity>
     </a-scene>
     <div class="btn-container">
